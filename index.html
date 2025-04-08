@@ -255,7 +255,8 @@
 
                         //  Scroll Trigger Timeline
                             const logo_scrub_tl = gsap.timeline({
-                              delay: 0.5
+                              delay: 0.5,
+                              repeat: -1 
                             });
 
                             logo_scrub_tl.to(document.querySelectorAll("#LogoGroup path"), {
